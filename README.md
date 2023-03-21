@@ -40,6 +40,12 @@ Once you have Node.js follow the next steps:
 1) Download repository
 2) Open terminal in repository folder and type `npm install` or `yarn`
 3) Run script by typing `npm start` or `yarn start`
+4) If you want to pre-approve ARB for DEXes run `npm run approve` or `yarn approve`
+
+## Approve for DEXes
+There is also a script to pre-approve ARB token for trading on DEXes. You can approve from all your accounts and be ready once trading on DEX starts. By default I added only Uniswap for approval but you can edit `DEXES` in `config.js` and add more DEXes to approve.
+
+In order to use approve script run `npm run approve` or `yarn approve`. Make sure to configure `config.js` first.
 
 ## Credits and donations
 Script was created by Serhii Zharkov. You can follow him on:
