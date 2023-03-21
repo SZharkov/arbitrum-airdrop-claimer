@@ -1,14 +1,14 @@
 {
   "name": "arb-claimer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Script to claim an ARB token airdrop and send to specified accounts. Pre-approve on DEXes included.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
     "approve": "node approve.js"
   },
-  "author": "",
+  "author": "Serhii Zharkov",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
