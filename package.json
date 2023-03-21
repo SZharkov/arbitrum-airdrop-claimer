@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "approve": "node approve.js"
   },
   "author": "",
   "license": "ISC",
