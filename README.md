@@ -57,3 +57,7 @@ Script was created by Serhii Zharkov. You can follow him on:
 If you want to donate:
 - `TW3rUPuyXCTAZZVUMYR4i1z5i1SWPPXgGA` - USDT trc20
 - `0xd2B7E218eB3C2441eB9c216f2442D3266b11a10d` - any token (USDC USDT BUSD ETH etc) all chains
+
+## Other
+- ARB token contract - [0x912CE59144191C1204E64559FE8253a0e49E6548](https://arbiscan.io/address/0x912CE59144191C1204E64559FE8253a0e49E6548)
+- ARB token claim contract - [0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9](https://arbiscan.io/address/0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9)
