@@ -55,4 +55,4 @@ Script was created by Serhii Zharkov. You can follow him on:
 
 If you want to donate:
 - `TW3rUPuyXCTAZZVUMYR4i1z5i1SWPPXgGA` - USDT trc20
-- `0x04652fdae61031153674f35c5153f42825d9a5a1` - USDC USDT ETH [Ethereum, Polygon, Arbitrum, Optimism chains]
+- `0xd2B7E218eB3C2441eB9c216f2442D3266b11a10d` - any token (USDC USDT BUSD ETH etc) all chains
