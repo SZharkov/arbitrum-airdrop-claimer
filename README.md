@@ -6,15 +6,15 @@ After claiming script can transfer tokens to any address. It also supports multi
 This script was created for personal use. I am not responsible for any issues which can occur when using this script.
 
 ## How to configure
-In order to use this script you need to have your own RPC which you can obtain on [Alchemy](https://alchemy.com/?r=baefaebe6e6ad7e2) or any other provider.
+In order to use this script you need to have your own Arbitrum and Ethereum RPC which you can obtain on [Alchemy](https://alchemy.com/?r=baefaebe6e6ad7e2) or any other provider.
 Main configuration can be found in `config.js` file. Just follow the instruction below:
 1) Create an account on [Alchemy](https://alchemy.com/?r=baefaebe6e6ad7e2).
 2) In Alchemy Dashboard create 2 apps:
-   3) Ethereum mainnet chain
-   4) Arbitrum mainnet chain
+   - Ethereum mainnet chain
+   - Arbitrum mainnet chain
 5) Open `config.js` file and edit the next fields:
-   6) Replace `RPC_ARBITRUM_HTTP` with your Arbitrum HTTPS key from Alchemy.
-   7) Replace `RPC_ETHEREUM_WSS` with your Ethereum WEBSOCKETS key from Alchemy.
+   - Replace `RPC_ARBITRUM_HTTP` with your Arbitrum HTTPS key from Alchemy.
+   - Replace `RPC_ETHEREUM_WSS` with your Ethereum WEBSOCKETS key from Alchemy.
 8) In `config.js` find `ACCOUNTS` array and put your accounts. If you want to claim without sending tokens then leave `addressToSendTokens` empty.
 
 Example:
@@ -37,8 +37,9 @@ export const ACCOUNTS = [
 ## How to run
 In order to run this script you need to have Node.js installed. You can [download Node.js here](https://nodejs.org/en/download).
 Once you have Node.js follow the next steps:
-1) Open terminal in script folder and type `npm install` or `yarn`
-2) Run script by typing `npm start` or `yarn start`
+1) Download repository
+2) Open terminal in repository folder and type `npm install` or `yarn`
+3) Run script by typing `npm start` or `yarn start`
 
 ## Credits and donations
 Script was created by Serhii Zharkov. You can follow him on:
