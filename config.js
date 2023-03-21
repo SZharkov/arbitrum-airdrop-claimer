@@ -17,6 +17,7 @@ export const ACCOUNTS = [
 // Add dexes to approve if needed
 export const DEXES = {
   UNISWAP: "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+  CAMELOT: "0xc873fEcbd354f5A56E00E710B90EF4201db2448d"
 };
 
 export const CONFIG = {
