@@ -5,6 +5,15 @@ After claiming script can transfer tokens to any address. It also supports multi
 ## Disclaimer
 This script was created for personal use. I am not responsible for any issues which can occur when using this script.
 
+## How to run
+In order to run this script you need to have Node.js installed. You can [download Node.js here](https://nodejs.org/en/download).
+Once you have Node.js follow the next steps:
+1) [Download](https://github.com/SZharkov/arbitrum-airdrop-claimer/archive/refs/heads/master.zip) repository
+2) Configure it by following [How to configure](https://github.com/SZharkov/arbitrum-airdrop-claimer#how-to-configure)
+3) Open terminal in repository folder and type `npm install` or `yarn`
+4) Run script by typing `npm start` or `yarn start`
+5) If you want to pre-approve ARB for DEXes run `npm run approve` or `yarn approve`
+
 ## How to configure
 In order to use this script you need to have your own Arbitrum and Ethereum RPC which you can obtain on [Alchemy](https://alchemy.com/?r=baefaebe6e6ad7e2) or any other provider.
 Main configuration can be found in `config.js` file. Just follow the instruction below:
@@ -33,14 +42,6 @@ export const ACCOUNTS = [
   },
 ]
 ```
-
-## How to run
-In order to run this script you need to have Node.js installed. You can [download Node.js here](https://nodejs.org/en/download).
-Once you have Node.js follow the next steps:
-1) Download repository
-2) Open terminal in repository folder and type `npm install` or `yarn`
-3) Run script by typing `npm start` or `yarn start`
-4) If you want to pre-approve ARB for DEXes run `npm run approve` or `yarn approve`
 
 ## Approve for DEXes
 There is also a script to pre-approve ARB token for trading on DEXes. You can approve from all your accounts and be ready once trading on DEX starts. By default I added only Uniswap for approval but you can edit `DEXES` in `config.js` and add more DEXes to approve.
