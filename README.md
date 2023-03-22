@@ -48,6 +48,9 @@ There is also a script to pre-approve ARB token for trading on DEXes. You can ap
 
 In order to use approve script run `npm run approve` or `yarn approve`. Make sure to configure `config.js` first.
 
+## Errors
+If you see an error something like `TypeError [ERR_UNKNOWN_FILE_EXTENSION]` or `The engine "node" is incompatible with this module` then you need to use another version of Node.js. This script is supposed to work with Node.js >= 16.15.0.
+
 ## Credits and donations
 Script was created by Serhii Zharkov. You can follow him on:
 - https://twitter.com/zharkov_crypto
