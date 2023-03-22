@@ -54,12 +54,12 @@ class ArbClaimer {
       if (claimableTokensFormattedNum > 0) {
         const claimTx = await ClaimContract.claim({
           gasPrice: feeData.gasPrice,
-          gasLimit: "3000000"
+          gasLimit: "2000000"
         });
         const waitClaimTx = await this.provider.waitForTransaction(claimTx.hash);
 
         if (waitClaimTx.status) {
-          claimedOkLog(accountId, claimableTokensFormattedNum);
+          claimedOkLog(accountId, claimableTokensFormattedNum, claimTx.hash);
           this.claimsOk++;
         } else {
           claimedFailLog(accountId, wallet.address);
@@ -72,7 +72,7 @@ class ArbClaimer {
           const waitTransferTx = await this.provider.waitForTransaction(transferTx.hash);
 
           if (waitTransferTx.status) {
-            transferOkLog(accountId, ethers.utils.formatEther(balance), account.addressToSendTokens);
+            transferOkLog(accountId, ethers.utils.formatEther(balance), transferTx.hash);
             this.transfersOk++;
           } else {
             transferFailLog(accountId, wallet.address);

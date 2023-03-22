@@ -1,8 +1,10 @@
 import chalk from "chalk";
 
-export const claimedOkLog = (accountId, amount) => console.log(`${chalk.bgGreenBright.whiteBright(`  [${accountId}] Claimed ${amount} $ARB`)}`);
+const scan = `https://arbiscan.io/`
+
+export const claimedOkLog = (accountId, amount, hash) => console.log(`${chalk.bgGreenBright.whiteBright(`  [${accountId}] Claimed ${amount} $ARB. ${scan}/tx/${hash}`)}`);
 export const claimedFailLog = (accountId, address) => console.log(`${chalk.bgRedBright.whiteBright(`  [${accountId}] Claim wasn't successful for ${address}`)}`);
-export const transferOkLog = (accountId, amount, address) => console.log(`${chalk.bgGreenBright.whiteBright(`  [${accountId}] Transferred ${amount} $ARB to ${address}`)}`);
+export const transferOkLog = (accountId, amount, hash) => console.log(`${chalk.bgGreenBright.whiteBright(`  [${accountId}] Transferred ${amount} $ARB. ${scan}/tx/${hash}`)}`);
 export const transferFailLog = (accountId, address) => console.log(`${chalk.bgRedBright.whiteBright(`  [${accountId}] Transfer wasn't successful for ${address}`)}`);
 export const claimNotStartedLog = (blockNum) => console.log(`${chalk.bgYellow.whiteBright(`  [${blockNum}] Claim not started yet. Waiting for the next block.`)}`);
 export const claimStartedLog = (blockNum) => console.log(`${chalk.bgGreenBright.whiteBright(`  [${blockNum}] Claim started!`)}`);
