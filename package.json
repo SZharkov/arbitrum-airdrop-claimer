@@ -13,5 +13,8 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "ethers": "^5.4.0"
+  },
+  "engines": {
+    "node": ">= 16.15.0"
   }
 }
