@@ -14,6 +14,9 @@ Once you have Node.js follow the next steps:
 4) Run script by typing `npm start` or `yarn start`
 5) If you want to pre-approve ARB for DEXes run `npm run approve` or `yarn approve`
 
+## How to open terminal? 
+https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/
+
 ## How to configure
 In order to use this script you need to have your own Arbitrum and Ethereum RPC which you can obtain on [Alchemy](https://alchemy.com/?r=baefaebe6e6ad7e2) or any other provider.
 Main configuration can be found in `config.js` file. Just follow the instruction below:
